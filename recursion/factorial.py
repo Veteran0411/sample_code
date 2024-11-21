@@ -4,5 +4,10 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 
+def factorial1(n):
+    fact=1
+    for i in range(n,1,-1):
+        fact*=i
+    print(fact)
 n=5
-print(f"factorial of {n} is {factorial(n)}")
+print(f"factorial of {n} is {factorial1(n)}")
