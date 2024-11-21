@@ -5,6 +5,8 @@ def revStr(s):
     flag = 1
     rev = ["0"] * len(s)
     while l <= h:
+        
+        # us can use alnum method too
         if not (ord(s[l]) >= 97 and ord(s[l]) <= 122) or (
             ord(s[l]) >= 65 and ord(s[l]) <= 90
         ):
